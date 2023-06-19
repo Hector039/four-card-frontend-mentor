@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    height: 250px;
+    width: 315px;
+}
+
+.pre-heading {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.sec-heading {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    height: 170px;
+    width: 260px;
+    box-shadow: 0 0.5em 1em lightgrey;
+    border-radius: 5px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    gap: 10px;
+}
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    height: 170px;
+    width: 260px;
+    box-shadow: 0 0.5em 1em lightgrey;
+    border-radius: 5px;
+    gap: 10px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card-tree {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    height: 170px;
+    width: 260px;
+    box-shadow: 0 0.5em 1em lightgrey;
+    border-radius: 5px;
+    gap: 10px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card-four {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    height: 170px;
+    width: 260px;
+    box-shadow: 0 0.5em 1em lightgrey;
+    border-radius: 5px;
+    gap: 10px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.card-heading {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-weight: 200;
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+img {
+    width: fit-content;
+    align-self: flex-end;
+    margin-top: 12px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 15px;
+    & a{
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+
+@media screen and (min-width: 1068px) {
+    .cards-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .headings {
+        width: 500px;
+        margin: 0;
+    }
+
+    .attribution {
+        margin-top: 45px;
+        margin-bottom: 5px;
+    }
+
+    .pre-heading {
+        font-size: 2rem;
+
+    }
+
+    .main-heading {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+}
